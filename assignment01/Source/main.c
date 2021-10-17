@@ -59,7 +59,7 @@ static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN 0 */
 
 // Change [My name] to your name      //
-uint8_t myTxData[] = "EMBSYS310: UW Test Application - [My Name]'s STM32L475 IoT node is alive!!!\r\n";
+uint8_t myTxData[] = "EMBSYS310: UW Test Application - [Arun]'s STM32L475 IoT node is alive!!!\r\n";
 
 
 /* USER CODE END 0 */
