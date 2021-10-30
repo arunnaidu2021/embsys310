@@ -9,3 +9,22 @@
     
 3 and 4.  With counter an unsigned integer, the behaviour remains the same as in 1 and 2.  This isn't what I expected,
           but I suspect the hardware behaves the same, regardless of the software interpretation.
+		  
+5.  With the counter variable outside of main:
+	a)  The counter variable has global scope.\
+	b)  It is not visible in the locals view.\
+	c)  We have to track counter in the register view.\
+	d)  The address of counter is 0x20000000. 
+	
+6.  Pointer manipulation:
+	a)  The value of counter at the end of the program is 4.\
+	b)  We have incremented the quantity at the address of counter.
+	
+7.  IAR version:
+	a)  Address is the same, 0x20000000.\
+ 	b)  The counter is modified and therefore must be stored in RAM.\
+	c)  The value of counter at the end of the program is 4.
+	
+	
+		  
+		  
