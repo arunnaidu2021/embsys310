@@ -20,7 +20,7 @@
 	a)  The value of counter at the end of the program is 4.\
 	b)  We have incremented the quantity at the address of counter.
 	
-7.  IAR version:
+7.  IAR version:\
 	a)  Address is the same, 0x20000000.\
  	b)  The counter is modified and therefore must be stored in RAM.\
 	c)  The value of counter at the end of the program is 4.
