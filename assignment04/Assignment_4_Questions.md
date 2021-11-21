@@ -19,7 +19,7 @@ Assignment 4 Questions
  
  2c.  It adjusted the stack pointer to accommodate the fifth value and then POPS the result off the stack.
  
- 2d.  Writing the function with 3 or 4 arguments avoids the interaction with the stack and would result in a faster, more efficient routine.  
+ 2d.  Writing the function with up to four arguments avoids the interaction with the stack and would result in a faster, more efficient routine.  
  
  
    
